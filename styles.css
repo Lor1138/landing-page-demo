@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    border: solid 3px yellow;
+    justify-content: space-around;
+    ;
+}
+ .header{
+    border: solid 3px green;
+ }
+.nav-list {
+    border: solid 3px blueviolet;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list li {
+    border: solid 3px hotpink;
+    
+}
+
+.hero-container {
+    border: solid 3px red;
+    display: flex;
+}
+
+.right-image {
+    width: 200px;
+    height: 200px;
+    border: solid 3px orange;
+}
+
+
+.cards {
+    border: solid 3px purple
+}
+
+.cards .title {
+    border: solid 3px red;
+    text-align: center;
+}
+.gallery {
+    border: solid 3px blue;
+}
+
+.gallery li {
+    border: solid 3px yellow;
+}
+
+.quote-section {
+    border: solid 3px green
+}
+
+.action {
+    border: solid 3px orange
+}
+
+.footer button {
+    border: solid 3px purple
+}
+
+
