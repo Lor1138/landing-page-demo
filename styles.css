@@ -1,55 +1,84 @@
 * {
     box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .header-container {
     display: flex;
-    border: solid 3px yellow;
     justify-content: space-around;
-    ;
+    background-color: #1F2937;
+    
+    
 }
  .header{
-    border: solid 3px green;
+    color: #F9FAF8;
+    font-size: 24px;
  }
 .nav-list {
-    border: solid 3px blueviolet;
+   
     display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
+    color: #E5E7EB;
 }
 
 .nav-list li {
-    border: solid 3px hotpink;
+    padding: 10px;;
     
 }
 
 .hero-container {
-    border: solid 3px red;
     display: flex;
+    background-color: #1F2937;
+    justify-content: center;
 }
 
+.hero-primary {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    width: 500px;
+    
+
+}
+ .hero-button {
+    background-color: #3882f6;
+    color: #F9FAf8;
+    padding: 5px;
+ }
 .right-image {
-    width: 200px;
+    width: 400px;
     height: 200px;
-    border: solid 3px orange;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
 }
 
-
-.cards {
-    border: solid 3px purple
-}
 
 .cards .title {
-    border: solid 3px red;
     text-align: center;
+    color: #1f2937
 }
 .gallery {
-    border: solid 3px blue;
+   display: flex;
+   
 }
-
+ img {
+    width: 100px;
+    height: 100px;
+ }
 .gallery li {
-    border: solid 3px yellow;
+   
 }
 
 .quote-section {
